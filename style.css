@@ -1,28 +1,50 @@
 * {
+    margin: 0;
+    padding: 0;
+}
 
+a {
+    color: #cf2525;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff7575;
 }
 
 /* HEADER */
 header {
+    padding: 1rem;
+    background-color: #bd2121;
+    color: white;
+    text-align: center;
 
+    p {
+        font-size: small;
+    }
 }
 
 /* NAV */
 nav {
+    padding: 0.75rem;
+    background: #9d0f0f;
+    text-align: center;
+    color: white;
 
-}
-
-/* ASIDE */
-aside {
-
+    a {
+        background-color: #9d0f0f;
+        color: white;
+    }
 }
 
 /* MAIN */
 main {
-
+    background-color: #eeeeee;
 }
 
 /* FOOTER */
 footer {
-
+    font-size: small;
+    text-align: center;
+    background: #cecece;
 }
